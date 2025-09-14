@@ -24,7 +24,7 @@ JOBS = [
         'job_id': 4,
         'title': 'Data Analytics',
         'location': 'Pune',
-        'salary': 80000
+        'salary': 50000
     }
 ]
 
