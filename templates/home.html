@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class=" text-center mt-2 mb-4">X Careers</h1>
+        <h1 class=" text-center mt-2 mb-4">{{ company_name }} Careers</h1>
 
         <img class="img-fluid" id="banner" src="../static/banner.png" height="320" alt="rr">
         <h2 class="text-center mt-2 mb-4">About Us</h2>
@@ -23,11 +23,16 @@
         </p>
 
         <h2 class="text-center mt-2 mb-4">Open Positions</h2>
-        <p>TODO - Show the jobs here</p>
+        <div>
+            {% for job in jobs %}
+               {% include 'jobitem.html' %}
+            {% endfor %}
+        </div>
         <div class="text-center">
             <button class="btn btn-primary btn-lg">Contact Us</button>
-            <p>Copyright 2025, Rupesh</p>
+            <p>&copy; 2025 {{ company_name }} | Built by Rupesh</p>
         </div>
     </div>
+</body>
 </body>
 </html>
