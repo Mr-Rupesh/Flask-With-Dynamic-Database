@@ -2,55 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>X Careers</title>
     <style>
-        h1 {
-            font-size: 40px;
-            font-family: roboto;
-            font-weight: normal;
-            color: #646464;
-            text-align: center;
-        }
         #banner {
+            height: 360px !important;
             width: 100%;
-            height: 360px;
-            object-fit: cover;
         }
-        h2 {
-            font-size: 32px;
-            font-family: roboto;
-            font-weight: normal;
-            color: #646464;
-            text-align: center;
-        }
-        .bodytext {
-            font-size: 20px;
-            font-family: roboto;
-            font-weight: normal;
-            color: rgb(80, 80, 80);
-
-        }
-        #container {
-            max-width: 720px;
-            margin: 0 auto;
-        }
-
     </style>
 </head>
 <body>
-    <div id="container">
-        <h1>X Careers</h1>
+    <div class="container">
+        <h1 class=" text-center mt-2 mb-4">X Careers</h1>
 
-        <img id="banner" src="../static/banner.png" height="320" alt="rr">
-        <h2>About Us</h2>
-        <p class = "bodytext">
+        <img class="img-fluid" id="banner" src="../static/banner.png" height="320" alt="rr">
+        <h2 class="text-center mt-2 mb-4">About Us</h2>
+        <p class="lead text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <h2>Open Positions</h2>
-        <p class="bodytext">TODO - Show the jobs here</p>
-        <div style="text-align: center">
-            <button>Contact Us</button>
+        <h2 class="text-center mt-2 mb-4">Open Positions</h2>
+        <p>TODO - Show the jobs here</p>
+        <div class="text-center">
+            <button class="btn btn-primary btn-lg">Contact Us</button>
             <p>Copyright 2025, Rupesh</p>
         </div>
     </div>
